@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.controls {
+  display: flex;
+  gap: 12px
+}

@@ -16,4 +16,4 @@ export const About = (props: AboutProps) => {
 
 About.displayName = 'About';
 
-About.withRole = withRole(About, 'admin')
+About.withRole = withRole({Component: About, role: 'admin', behavior: "no-access-page"})
